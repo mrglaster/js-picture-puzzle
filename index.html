@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link href="css/css.css" type="text/css" rel="stylesheet" />
+    <title>JS image puzzle</title>
+  </head>
+  <body>
+    <h2> PUZZLE SETTINGS </h2>
+    <div class="menu-container">
+      <h1>Puzzle image</h1>
+      <div  id="tvshape" style="background-image: url(https://i.ibb.co/SX2pQJm/bg-tv.png);"></div>
+      <label class="nes-btn is-warning">
+        <span>Select Puzzle Image!</span>
+        <input type="file" id="fileselector" accept=".png, .jpg, .jpeg">
+      </label>
+      <div style="padding: 1rem 0; margin-top: 50px">
+        <label>
+          <label> Difficulty </label>
+          <input type="radio" class="nes-radio is-dark" id="easy_mode" name="answer-dark" checked />
+          <span>Easy</span>
+        </label>
+        <label>
+          <input type="radio" class="nes-radio is-dark" id="medium_mode" name="answer-dark" />
+          <span>Medium</span>
+        </label>
+        <label>
+          <input type="radio" class="nes-radio is-dark" id="hard_mode" name="answer-dark" />
+          <span>Hard</span>
+        </label>
+      </div>
+      <a class="nes-btn" href="#" onclick="start_game()"> START THE GAME! </a>
+    </div>
+  </body>
+  <script src='./scripts/main_menu.js'></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>

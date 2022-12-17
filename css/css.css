@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Atari-Chunky';
+    src: url('../fonts/atari_font.ttf');
+}
+
+h2{ 
+    margin-top: 25px;
+    font-size: 98px;
+    color: #90a0ff;
+    text-align: center;
+    font-family: 'Atari-Chunky';
+}
+
+.menu-container{
+    position: relative;
+    text-align: center;
+    color: #e96a3f;
+    font-family: 'Atari-Chunky';
+}
+
+#tvshape {
+ position: relative;
+ left: 37.5%;
+ width: 450px;
+ height: 300px;
+ margin: 20px 10px;
+ background: #0809fe;
+ border-radius: 50% / 10%;
+ color: white;
+ text-align: center;
+ text-indent: .1em;
+ background-position: center center;
+}
+
+#tvshape:before {
+ content: "";
+ position: absolute;
+ top: 10%;
+ bottom: 10%;
+ right: -5%;
+ left: -5%;
+ background: inherit;
+ border-radius: 5% / 50%;
+}
+
+#tvshape img {
+ height:100%;
+ width:100%;
+}
+
+canvas{
+    display: hidden;
+}
+
+
