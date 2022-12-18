@@ -11,7 +11,7 @@ Jigsaw Puzzle Game made with Javascript. Image for puzzle can be uploaded by use
 
 ![alt text](https://github.com/mrglaster/js-picture-puzzle/blob/main/readme_images/image_5.png)
 
-3) Find following line in ```/scripts/main_menu.js```
+3) Find following lines in ```/scripts/main_menu.js```
 
   ```
   /**ImgBB API key */
