@@ -3,12 +3,34 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link href="css/main_menu.css" type="text/css" rel="stylesheet" />
     <link href="css/game.css" type="text/css" rel="stylesheet" />
     <title>JS image puzzle</title>
   </head>
   <body>
-    
+        <h2>PUZZLE GAME</h2>
+        <h1 id="difficulty_header">DIFFICULTY:</h1>
+        <div class = "puzzle_container">
+            <div class="puzzle-subcontainer puzzle-to-build">
+                <h3>BUILD IT HERE</h3>
+                <div id="puzzle-place" class="puzzle-space"></div>
+            </div>
+            
+            <div class="puzzle-subcontainer puzzle-to-build">
+                <h3>SAMPLE</h3>
+                <div  id="tvshape" style="background-image: url(https://i.ibb.co/SX2pQJm/bg-tv.png);"></div>
+                <a class="nes-btn is-warning" href="#" onclick="giveUp()" style="margin-top: 5px">I give up!</a>
+                <a class="nes-btn is-primary" href="#" onclick="changeData()" style="margin-top: 10px;"> Go to settings </a>
+            </div>
+        </div>
+        <img id="myImageElementInTheDom"></img>
   </body>
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js'></script>
+  <script src="./scripts/sweetalert.min.js"></script>
+  
+  <script src="https://flbulgarelli.github.io/headbreaker/js/headbreaker.js"></script>
+  <script src="./scripts/headbreaker.js"></script>
+  
   <script src='./scripts/game.js'></script>
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </html>

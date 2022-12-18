@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    color: #e96a3f;
+}
+
+.puzzle_container {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.puzzle-subcontainer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.puzzle-place{
+    margin-top: 20px;
+    width: 450px;
+    height: 300px;
+    background-color: #f0f0f0;
+}
+
+canvas{
+    width: 450px;
+    height: 300px;
+    margin-top: 20px;
+    background-color: white;
+    background-position: center center;
+}
+
+
+#tvshape{
+    left: 0;
+}
