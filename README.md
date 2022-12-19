@@ -30,3 +30,10 @@ Jigsaw Puzzle Game made with Javascript. Image for puzzle can be uploaded by use
 ![alt text](https://github.com/mrglaster/js-picture-puzzle/blob/main/readme_images/image_3.png)
 
 ![alt text](https://github.com/mrglaster/js-picture-puzzle/blob/main/readme_images/image_4.png)
+
+
+### Used Libraries
+
+1) [Axios HTTP Requests Library](https://github.com/axios/axios)
+2) [SweetAlert Popup Messages Library](https://sweetalert.js.org/)
+3) [Headbreaker Library](https://github.com/flbulgarelli/headbreaker)
