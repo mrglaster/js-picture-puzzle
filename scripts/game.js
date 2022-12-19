@@ -31,7 +31,7 @@ function play_sound(sound_path){
     audio.play();
 }
 
-
+/**If player gave up*/
 function giveUp(){
     play_sound(CLICK_SOUND);
     play_sound(GIVE_UP_SOUND);
