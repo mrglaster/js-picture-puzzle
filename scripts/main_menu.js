@@ -29,7 +29,6 @@ function resizedataB64(datas, wantedWidth, wantedHeight) {
             resolve(dataURI);
         };
         img.src = datas;
-
     })
 }
 
@@ -123,7 +122,7 @@ function start_game() {
                 console.log(difficulty)
                 buildCustomAlert("Successful!", "You will be redirected to the Game Page right now!")
                 this.location.href = `puzzle.html?image=${viewUrl}&difficulty=${difficulty}`;
-
+                
             }).catch(error => buildCustomAlert("ERROR!", "Connection to ImgBB is unavailable! Sorry, we can't run puzzle game then ("));
         }
 
